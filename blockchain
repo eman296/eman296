@@ -1,0 +1,25 @@
+//^0.5.0 means onlu this version will be included
+pragma solidity ^0.5.0;
+contract SolidityTest
+{   //contrutor is passing as an state variable
+    constructor() public{
+    }
+    uint a=8;
+    uint b=2;
+    function sum() public view returns(uint){
+    uint result1 =a+b;
+   return result1;
+    }
+    function sub() public view returns(uint){
+    uint result1 =a-b;
+   return result1;
+    }
+    function multi() public view returns(uint){
+    uint result1 =a*b;
+   return result1;
+    }
+    function divide() public view returns(uint){
+    uint result1 =a/b;
+   return result1;
+    }
+}
