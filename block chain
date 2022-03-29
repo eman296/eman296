@@ -1,0 +1,14 @@
+pragma solidity >=0.4.0<0.6.0;//include version 
+contract Firstcode//a type of some function
+{   //newx state variable
+    uint newx;//uint fix value 256
+    //setter function
+     function set(uint x) public//scope resulation operator
+     {
+         newx = x;
+     }
+    function get() public view returns(uint)
+    {
+        return newx;
+    }
+}
