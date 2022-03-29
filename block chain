@@ -1,3 +1,4 @@
+//smart contract
 pragma solidity >=0.4.0<0.6.0;//include version 
 contract Firstcode//a type of some function
 {   //newx state variable
