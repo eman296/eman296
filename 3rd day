@@ -1,13 +1,14 @@
 pragma solidity ^ 0.5.0;
 
 contract Mycontract
-{
+{   //enum start from 0 , 1, 2
     enum State {Wating,Ready,Active}
-    State public state;
+    State public state;//this is a state variable will work as an object
     constructor () public
     {
         state = State.Wating;
     }
+    //the final state we have passing is currently active
     function Active() public
     {
         state=State.Active;
