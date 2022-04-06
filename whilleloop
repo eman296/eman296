@@ -1,0 +1,20 @@
+pragma solidity ^0.5.0;
+contract Loops
+{
+    uint8 i=0;
+    uint8 result=0;
+
+    function input(uint8 n) public 
+    {
+      while(i<n)
+     {
+        i++;
+        result=0+i;
+     }   
+    }  
+    function print() public view returns(uint)
+    {
+        return result;
+    } 
+}
+
